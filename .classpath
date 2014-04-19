@@ -8,5 +8,7 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/junit-3.8.2.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/standard.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
