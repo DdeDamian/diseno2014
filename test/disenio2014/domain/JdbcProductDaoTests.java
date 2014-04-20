@@ -1,6 +1,10 @@
-package disenio2014.repository;
+package disenio2014.domain;
 
 import java.util.List;
+
+import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
+
+import disenio2014.repository.ProductDao;
 
 public class JdbcProductDaoTests extends AbstractTransactionalDataSourceSpringContextTests {
 
