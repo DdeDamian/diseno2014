@@ -8,6 +8,9 @@
 *.war
 *.ear
 
+# Log files #
+*.log
+
 # Classes folder #
 
 bin/
