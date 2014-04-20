@@ -13,5 +13,8 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/standard.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/hsqldb.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-test.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-pool.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
