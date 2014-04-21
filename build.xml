@@ -174,13 +174,13 @@
 	<!-- End Tomcat tasks -->
 
 	<!-- ============================================================== -->
-	<!-- Tomcat tasks - remove these if you don't have Tomcat installed -->
+	<!-- Tomcat tasks - remove these if you don't have Tomcat installed${appserver.lib} -->
 	<!-- ============================================================== -->
 
 	<path id="catalina-ant-classpath">
 		<!-- We need the Catalina jars for Tomcat -->
 		<!--  * for other app servers - check the docs -->
-		<fileset dir="${appserver.lib}">
+		<fileset dir="./war/WEB-INF/lib">
 			<include name="catalina-ant.jar"/>
 		</fileset>
 	</path>
